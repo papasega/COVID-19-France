@@ -32,10 +32,6 @@ st.title("COVID-19 in France")
 
 st.write("An analysis of COVID-19 cases in France, day by day, department by department.")
 
-st.header("Xibaaru Jangorëy COVID-19 au Sénégal 🇸🇳")
-
-st.sidebar.markdown("*Dernière mise à jour: 23/03/2020*")
-st.sidebar.markdown("---")
 st.sidebar.header("Ressources utiles")
 
 st.sidebar.markdown("Numéro d'urgence 1: **0 800 130 000**")
@@ -55,8 +51,8 @@ st.sidebar.markdown("Numéro d'urgence 1: **0 800 130 000**")
 #st.sidebar.markdown("Rue Aimé Césaire, Dakar, Sénégal")
 #st.sidebar.markdown("+221 800 00 50 50 - contact@sante.gouv.sn")
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("Réalisé par [Papa Séga WADE](https://github.com/papasega/COVID-19-France/) 
+#st.sidebar.markdown("---")
+#st.sidebar.markdown("Réalisé par [Papa Séga WADE](https://github.com/papasega/COVID-19-France/) 
 
 
 df = pd.read_csv("https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv")
