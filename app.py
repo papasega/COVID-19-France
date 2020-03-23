@@ -47,7 +47,7 @@ st.sidebar.markdown("Numéro d'urgence 1: **0 800 130 000**")
 #st.sidebar.markdown("[Testez vos symptomes sur Prevcovid19](http://www.prevcovid19.com/#/teste)")
 #st.sidebar.markdown("[Tweets du Ministère de la Santé](https://twitter.com/MinisteredelaS1)")
 #st.sidebar.markdown("[Base de données et code de l'application](https://github.com/maelfabien/COVID-19-Senegal)")
-#.sidebar.markdown("---")
+
 
 #st.sidebar.header("Contacter le Ministère")
 
@@ -56,7 +56,7 @@ st.sidebar.markdown("Numéro d'urgence 1: **0 800 130 000**")
 #st.sidebar.markdown("+221 800 00 50 50 - contact@sante.gouv.sn")
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("Réalisé par [Papa Séga WADE](https://github.com/papasega/COVID-19-Senegal/) 
+st.sidebar.markdown("Réalisé par [Papa Séga WADE](https://github.com/papasega/COVID-19-France/) 
 
 
 df = pd.read_csv("https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv")
