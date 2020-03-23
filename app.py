@@ -27,9 +27,37 @@ from bokeh.models import GeoJSONDataSource, ColumnDataSource
 import json
 from bokeh.models import HoverTool
 
+
 st.title("COVID-19 in France")
 
 st.write("An analysis of COVID-19 cases in France, day by day, department by department.")
+
+st.header("Xibaaru Jangorëy COVID-19 au Sénégal 🇸🇳")
+
+st.sidebar.markdown("*Dernière mise à jour: 23/03/2020*")
+st.sidebar.markdown("---")
+st.sidebar.header("Ressources utiles")
+
+st.sidebar.markdown("Numéro d'urgence 1: **0 800 130 000**")
+#st.sidebar.markdown("Numéro d'urgence 2: **76 765 97 31**")
+#st.sidebar.markdown("Numéro d'urgence 3: **70 717 14 92**")
+#st.sidebar.markdown("Numéro Vert du Ministère: **800 00 50 50**")
+#st.sidebar.markdown("Samu: **1515**")
+#st.sidebar.markdown("Service USSD: **#2121#**")
+#st.sidebar.markdown("[Testez vos symptomes sur Prevcovid19](http://www.prevcovid19.com/#/teste)")
+#st.sidebar.markdown("[Tweets du Ministère de la Santé](https://twitter.com/MinisteredelaS1)")
+#st.sidebar.markdown("[Base de données et code de l'application](https://github.com/maelfabien/COVID-19-Senegal)")
+#.sidebar.markdown("---")
+
+#st.sidebar.header("Contacter le Ministère")
+
+#st.sidebar.markdown("Ministère de la santé et de l'Action Sociale / Fann Résidence")
+#st.sidebar.markdown("Rue Aimé Césaire, Dakar, Sénégal")
+#st.sidebar.markdown("+221 800 00 50 50 - contact@sante.gouv.sn")
+
+st.sidebar.markdown("---")
+st.sidebar.markdown("Réalisé par [Papa Séga WADE](https://github.com/papasega/COVID-19-Senegal/) 
+
 
 df = pd.read_csv("https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv")
 df['date'] = pd.to_datetime(df['date'])
